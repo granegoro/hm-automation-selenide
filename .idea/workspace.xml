@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bdb57c4-d489-4aa0-ae75-384eceabdf41" name="Changes" comment=".gitignore updated3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8bdb57c4-d489-4aa0-ae75-384eceabdf41" name="Changes" comment=".jar added">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664983740329</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".jar added">
+      <created>1664984002455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664984002455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +92,7 @@
     <MESSAGE value=".gitignore updated" />
     <MESSAGE value=".gitignore updated2" />
     <MESSAGE value=".gitignore updated3" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore updated3" />
+    <MESSAGE value=".jar added" />
+    <option name="LAST_COMMIT_MESSAGE" value=".jar added" />
   </component>
 </project>

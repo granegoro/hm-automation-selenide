@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bdb57c4-d489-4aa0-ae75-384eceabdf41" name="Changes" comment=".jar added">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="8bdb57c4-d489-4aa0-ae75-384eceabdf41" name="Changes" comment=".jar added to stage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +76,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664984002455</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".gitignore updated5">
+      <created>1664984223182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664984223183</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".gitignore updated5">
+      <created>1664984234216</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664984234216</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".jar added to stage">
+      <created>1664984467228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664984467230</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +117,8 @@
     <MESSAGE value=".gitignore updated2" />
     <MESSAGE value=".gitignore updated3" />
     <MESSAGE value=".jar added" />
-    <option name="LAST_COMMIT_MESSAGE" value=".jar added" />
+    <MESSAGE value=".gitignore updated5" />
+    <MESSAGE value=".jar added to stage" />
+    <option name="LAST_COMMIT_MESSAGE" value=".jar added to stage" />
   </component>
 </project>

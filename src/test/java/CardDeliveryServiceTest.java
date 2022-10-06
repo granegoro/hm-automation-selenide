@@ -32,7 +32,7 @@ public class CardDeliveryServiceTest {
     public void shouldPassWithValidData() {
         String date = generateDate(3);
 
-        $("[data-test-id=city] input").setValue("МоскваR");
+        $("[data-test-id=city] input").setValue("Москва");
         $("[data-test-id=date] input").setValue(clearAll);
         $("[data-test-id=date] input").setValue(date);
         $("[data-test-id=name] input").setValue("Жора Жорович");

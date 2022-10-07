@@ -39,7 +39,7 @@ public class CardDeliveryServiceTest {
         $("[data-test-id=phone] input").setValue("+79999999999");
         $("[data-test-id=agreement]").click();
         $$("button").find(exactText("Забронировать")).click();
-        $$("button .spin");
+        $("button .spin").shouldBe(visible);
         $("[data-test-id=notification]").shouldBe(visible, Duration.ofSeconds(15));
 
     }
@@ -55,8 +55,26 @@ public class CardDeliveryServiceTest {
         $("[data-test-id=phone] input").setValue("+79999999999");
         $("[data-test-id=agreement]").click();
         $$("button").find(exactText("Забронировать")).click();
-        $$("button .spin");
+        $("button .spin").shouldBe(visible);
         $("[data-test-id=notification]").shouldBe(visible, Duration.ofSeconds(15));
+
+    }
+
+    @Test
+    public void shouldShowCorrectDateInPopup() {
+        String date = generateDate(3);
+
+        $("[data-test-id=city] input").setValue("Москва");
+        $("[data-test-id=date] input").setValue(clearAll);
+        $("[data-test-id=date] input").setValue(date);
+        $("[data-test-id=name] input").setValue("Жо-ра Жо-рович");
+        $("[data-test-id=phone] input").setValue("+79999999999");
+        $("[data-test-id=agreement]").click();
+        $$("button").find(exactText("Забронировать")).click();
+        $("button .spin").shouldBe(visible);
+        $("[data-test-id=notification]").shouldBe(visible, Duration.ofSeconds(15));
+        $(".notification__content").shouldHave(text("Встреча успешно забронирована на " + date), Duration.ofSeconds(15))
+                .shouldBe(visible);
 
     }
 
